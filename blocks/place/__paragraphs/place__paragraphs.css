@@ -1,0 +1,38 @@
+.place__paragraphs {
+  margin: 0;
+  min-width: 484px;
+}
+
+@media screen and (max-width: 1024px ) {
+  .place__paragraphs {
+    min-width: 456px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 924px) {
+  .place__paragraphs {
+    min-width: calc(100vw - 440px - 32px);
+  }
+}
+  
+
+@media screen and (max-width: 768px ) {
+  .place__paragraphs {
+    min-width: 352px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 717px) {
+  .place__paragraphs {
+    min-width: calc(100vw - 340px - 28px);
+  }
+}
+
+@media screen and (max-width: 320px ) {
+  .place__paragraphs {
+    min-width: 288px;
+    margin: 0 16px;
+  }
+}
+  
+
