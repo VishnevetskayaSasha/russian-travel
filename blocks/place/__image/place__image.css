@@ -10,6 +10,13 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: 920px) {
+  .place__image {
+    width: 350px;
+    height: 350px;
+  }
+}
+
 @media screen and (max-width: 768px ) {
   .place__image {
     width: 340px;
@@ -17,20 +24,15 @@
   }
 }
 
-@media (min-width: 321px) and (max-width: 580px){
+@media (min-width: 351px) and (max-width: 730px) {
   .place__image {
     margin-bottom: 30px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 350px) {
-  .place__image {
-    width: 310px;
-    height: 310px;
-  }
-}
 
-@media screen and (max-width: 320px ) {
+
+@media screen and (max-width: 350px ) {
   .place__image {
     width: 320px;
     height: 320px;

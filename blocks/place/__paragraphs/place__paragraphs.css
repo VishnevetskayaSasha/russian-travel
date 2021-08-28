@@ -9,12 +9,11 @@
   }
 }
 
-@media (min-width: 769px) and (max-width: 924px) {
+@media (min-width: 769px) and (max-width: 920px) {
   .place__paragraphs {
-    min-width: calc(100vw - 440px - 32px);
+    min-width: 355px;
   }
 }
-  
 
 @media screen and (max-width: 768px ) {
   .place__paragraphs {
@@ -22,13 +21,13 @@
   }
 }
 
-@media (min-width: 321px) and (max-width: 717px) {
+@media (min-width: 351px) and (max-width: 730px) {
   .place__paragraphs {
     min-width: calc(100vw - 340px - 28px);
   }
 }
 
-@media screen and (max-width: 320px ) {
+@media screen and (max-width: 350px ) {
   .place__paragraphs {
     min-width: 288px;
     margin: 0 16px;
